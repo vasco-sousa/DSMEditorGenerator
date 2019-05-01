@@ -18,8 +18,21 @@ This repository contains the source code of the DSM editor generator. It also co
 
 
 ## Installation requirements
-* Eclipse Photon
-* Epsilon plug-in version 
-* ...
+* Eclipse Oxigen (https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-modeling-tools)
+* Epsilon plug-in version 1.4 
+* Python 2.7 (https://www.python.org/download/releases/2.7/)
+* SCCD 0.9 (https://msdl.uantwerpen.be/git/simon/SCCD/src/master)
 
 ## How to use the DSM edtior generator
+* Instal the plugins in /PluginDependencies/ into your eclipse /dropins/ folder
+* Import into a wrokspace the /Transformation2sc/ project and the examples you want to test
+* Run the <Example Name>Run.launcher to genreate
+* In the generated /OutModels/<Example Name>.js replace all instances of "and" for "&&"
+* Run the example
+
+## Example requirements
+* Statechart controler requires Chrome or similar browser (Chrome, Chromium, Vivaldi, ...)
+* Best viewed with unicode fonts instaled
+
+## How to run the generated DSM edtior examples
+* Open Test<Example Name>/OutModels/<Example Name>.html in a browser
