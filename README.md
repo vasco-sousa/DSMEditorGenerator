@@ -35,4 +35,4 @@ This repository contains the source code of the DSM editor generator. It also co
 * Best viewed with unicode fonts instaled
 
 ## How to run the generated DSM edtior examples
-* Open Test\<Example Name\>/OutModels/\<Example Name\>.html in a browser
+* Open \Test\<Example Name\>/OutModels/\<Example Name\>.html in a browser
