@@ -26,7 +26,7 @@ This repository contains the source code of the DSM editor generator. It also co
 ## How to use the DSM edtior generator
 * Instal the plugins in /PluginDependencies/ into your eclipse /dropins/ folder
 * Import into a wrokspace the /Transformation2sc/ project and the examples you want to test
-* Run the <Example Name>Run.launcher to genreate
+* Run the \<Example Name\>Run.launcher to genreate
 * In the generated /OutModels/<Example Name>.js replace all instances of "and" for "&&"
 * Run the example
 
@@ -35,4 +35,4 @@ This repository contains the source code of the DSM editor generator. It also co
 * Best viewed with unicode fonts instaled
 
 ## How to run the generated DSM edtior examples
-* Open Test<Example Name>/OutModels/<Example Name>.html in a browser
+* Open Test\<Example Name\>/OutModels/\<Example Name\>.html in a browser
